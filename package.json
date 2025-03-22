@@ -1,48 +1,40 @@
 {
-  "name": "dev-birthday",
-  "version": "1.0.1",
-  "description": "CLI Birthday Card Generator for Developers with Tech-Themed Animations & Wishes",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm install"
-  },
+  "name": "proposal-cli",
+  "version": "1.0.0",
+  "description": "A romantic way to propose to your special someone through the terminal",
   "keywords": [
+    "proposal",
+    "love",
     "cli",
-    "birthday",
-    "developer",
-    "terminal",
-    "animation",
-    "ascii-art",
-    "npm-package",
-    "tech-humor"
+    "romance",
+    "terminal"
   ],
-  "author": "Sk Mirajul Islam",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^5.4.1",
-    "chalk-animation": "^2.0.3",
-    "cli-progress": "^3.12.0",
-    "figlet": "^1.8.0",
-    "gradient-string": "^3.0.0",
-    "inquirer": "^12.4.2",
-    "nanospinner": "^1.2.2",
-    "ora": "^8.2.0"
+  "homepage": "https://github.com/skmirajulislam/proposal-cli#readme",
+  "bugs": {
+    "url": "https://github.com/skmirajulislam/proposal-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skmirajulislam/birthday-npm-package.git"
+    "url": "https://github.com/skmirajulislam/proposal-cli.git"
   },
-  "bugs": {
-    "url": "https://github.com/skmirajulislam/birthday-npm-package/issues"
-  },
-  "homepage": "https://github.com/skmirajulislam/birthday-npm-package#readme",
+  "license": "ISC",
+  "author": "Sk Mirajul Islam",
+  "type": "module",
+  "main": "bin/index.js",
   "bin": {
-    "dev-birthday": "./main.js"
+    "propose": "./bin/index.js"
   },
-  "engines": {
-    "node": ">=18.0.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "cli-progress": "^3.12.0",
+    "figlet": "^1.6.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.7",
+    "nanospinner": "^1.1.0",
+    "ora": "^7.0.1"
   }
 }
